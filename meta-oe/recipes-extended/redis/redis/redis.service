@@ -1,6 +1,7 @@
 [Unit]
 Description=Redis In-Memory Data Store
 After=network.target
+Requires=tmp.mount
 
 [Service]
 User=redis
